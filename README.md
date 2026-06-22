@@ -5,7 +5,8 @@ Celem tego projektu było przeprowadzenie kompleksowej, całościowej analizy tr
 ## 📊 Interactive Dashboard Preview
 
 The video above demonstrates the interactive features of the dashboard. Detailed descriptions of the charts and pages can be found below.
-###📊 Page 1: Wages & Inflation in Poland (The "Bread Test")
+
+### 📊 Page 1: Wages & Inflation in Poland (The "Bread Test")
 
 This view connects national wage growth with local inflation to uncover the actual change in living standards:
 * **The Bread Test:** A custom infographic visualization comparing how many loaves of bread an average salary could buy in 2014 vs. 2024, calculated using real historical price data.
