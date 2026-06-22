@@ -1,1 +1,1 @@
-# purchasing-power-of-poles
+# Purchasing Power of Poles Analysis (2014–2024)
