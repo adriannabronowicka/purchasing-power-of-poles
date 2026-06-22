@@ -1,5 +1,6 @@
 # Purchasing Power of Poles Analysis (2014–2024)
 ## 📌 Project Overview
+
 The goal of this project was to conduct a comprehensive end-to-end analysis of macroeconomic trends in Poland using multi-source historical datasets from NBP, GUS, and Eurostat. I focused on transforming raw economic data into a structured, interactive dashboard that evaluates the real purchasing power of Polish wages and measures the direct impact of global inflation on citizens' savings.
 
 ## 📊 Interactive Dashboard Preview
