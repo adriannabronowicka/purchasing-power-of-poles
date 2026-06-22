@@ -20,8 +20,9 @@ This section expands the analysis to a global scale, examining the Polish Zloty'
 
 ## 🛠️ Tech Stack & Tools
 
-* **Power BI Desktop** – Data visualization, report UI design, and dashboard architecture.
+* **Power BI Desktop** – Data visualization and report building.
 * **Python (Pandas, Requests)** – Automated data extraction via NBP API and end-to-end data cleaning/transformation.
-* **Power Query** – Data loading and final model relations.
-* **DAX (Data Analysis Expressions)** – Developed advanced measures to calculate real wages and purchasing power metrics.
+* **Power Query** – Data transformation.
+* **DAX (Data Analysis Expressions)** – Created calculated measures.
 * **GitHub** – Documentation, version control, and project hosting.
+
