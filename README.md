@@ -18,7 +18,7 @@ This section expands the analysis to a global scale, examining the Polish Zloty'
 * **Global Impact on Savings:** A practical business scenario showing the real-world devaluation of cash savings (e.g., 10,000 PLN) when converted to foreign currencies over the decade.
 * **EU Benchmark:** A comparative line chart pitting Poland's HICP inflation directly against the European Union average to highlight local volatility.
 
-##🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools
 
 * **Power BI Desktop** – Data visualization, report UI design, and dashboard architecture.
 * **Python (Pandas, Requests)** – Automated data extraction via NBP API and end-to-end data cleaning/transformation.
