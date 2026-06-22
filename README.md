@@ -17,3 +17,11 @@ This section expands the analysis to a global scale, examining the Polish Zloty'
 * **Inflation (HICP) vs. Currency Exchange Rates:** A combo chart tracking the average exchange rates of the EUR and USD to evaluate how global crises and domestic inflation influenced the Polish Zloty's value.
 * **Global Impact on Savings:** A practical business scenario showing the real-world devaluation of cash savings (e.g., 10,000 PLN) when converted to foreign currencies over the decade.
 * **EU Benchmark:** A comparative line chart pitting Poland's HICP inflation directly against the European Union average to highlight local volatility.
+
+##🛠️ Tech Stack & Tools
+
+* **Power BI Desktop** – Data visualization, report UI design, and dashboard architecture.
+* **Python (Pandas, Requests)** – Automated data extraction via NBP API and end-to-end data cleaning/transformation.
+* **Power Query** – Data loading and final model relations.
+* **DAX (Data Analysis Expressions)** – Developed advanced measures to calculate real wages and purchasing power metrics.
+* **GitHub** – Documentation, version control, and project hosting.
