@@ -1,6 +1,6 @@
 # Purchasing Power of Poles Analysis (2014–2024)
 ## 📌 Project Overview
-Celem tego projektu było przeprowadzenie kompleksowej, całościowej analizy trendów makroekonomicznych w Polsce z wykorzystaniem historycznych zbiorów danych pochodzących z wielu źródeł, takich jak NBP, GUS i Eurostat. Skupiłem się na przekształceniu surowych danych ekonomicznych w uporządkowany, interaktywny pulpit analityczny, który pozwala ocenić realną siłę nabywczą polskich wynagrodzeń oraz zmierzyć bezpośredni wpływ globalnej inflacji na oszczędności obywateli.
+The goal of this project was to conduct a comprehensive end-to-end analysis of macroeconomic trends in Poland using multi-source historical datasets from NBP, GUS, and Eurostat. I focused on transforming raw economic data into a structured, interactive dashboard that evaluates the real purchasing power of Polish wages and measures the direct impact of global inflation on citizens' savings.
 
 ## 📊 Interactive Dashboard Preview
 
