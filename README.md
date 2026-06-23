@@ -8,11 +8,17 @@ The goal of this project was to conduct a comprehensive end-to-end analysis of m
 The video above demonstrates the interactive features of the dashboard. Detailed descriptions of the charts and pages can be found below.
 
 ### 📊 Page 1: Wages & Inflation in Poland
+
+![Wages & Inflation in Poland](images/report_1.png)
+
 This view connects national wage growth with local inflation to uncover the actual change in living standards:
 * **The Bread Test:** A custom infographic visualization comparing how many loaves of bread an average salary could buy in 2014 vs. 2024, calculated using real historical price data.
 * **Wage vs. Inflation Trend:** A combo chart correlating the sharp rise of Nominal and Real Wages with the HICP Inflation curve over the 10-year period.
 
 ### 📊 Page 2: Currency Rates & EU Inflation
+
+![Currency Rates & EU Inflation](images/report_2.png)
+
 This section expands the analysis to a global scale, examining the Polish Zloty's strength and positioning against international standards:
 * **Inflation (HICP) vs. Currency Exchange Rates:** A combo chart tracking the average exchange rates of the EUR and USD to evaluate how global crises and domestic inflation influenced the Polish Zloty's value.
 * **Global Impact on Savings:** A practical business scenario showing the real-world devaluation of cash savings (e.g., 10,000 PLN) when converted to foreign currencies over the decade.
