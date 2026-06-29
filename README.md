@@ -58,8 +58,8 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 | **USD Growth Subtitle** | Generates a dynamic, time-aware text string for the USD KPI card subtitle (e.g., *"USD Change 2014 - 2024"*). |
 | **Inflation PL (HICP)** | Calculates the dynamic Harmonised Index of Consumer Prices (HICP) for Poland based on the active slicer selection. |
 | **Inflation EU (HICP)** | Calculates the dynamic Harmonised Index of Consumer Prices (HICP) for the European Union as a baseline benchmark. |
-| **Latest Inflation PL (HICP)** | Extracts the inflation rate for the final year |
-| **Nominal Wage** | Computes the average gross monthly wage in Poland dynamically over the selected time range. |
+| **Latest Inflation PL (HICP)** | Extracts the inflation rate for the final year. |
+| **Nominal Wage** | Calculates the average gross monthly wage in Poland dynamically over the selected time range. |
 | **Real Wage** | Adjusts the nominal wage against inflation metrics to calculate the true purchasing power over time. |
-| **Latest Nominal Wage** | Isolates the most recent nominal wage value to anchor the KPI dashboard views. |
-| **Latest Real Wage** | Isolates the most recent real wage value to highlight the current baseline of adjusted citizen wealth. |
+| **Latest Nominal Wage** | Extracts the most recent nominal wage value. |
+| **Latest Real Wage** | Extracts the most recent real wage value. |
