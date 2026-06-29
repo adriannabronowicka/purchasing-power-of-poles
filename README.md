@@ -45,3 +45,21 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 ## 💡 Key Insights
 
 ## 🛠️ Key DAX Measures
+
+| Measure Name | Description |
+| :--- | :--- |
+| **Avg Rate EUR** | Calculates the average Euro (EUR) exchange rate dynamically based on the selected timeline filter. |
+| **Avg Rate EUR 2024** | Isolates and calculates the fixed average EUR exchange rate for the final benchmark year (2024), ignoring user timeline filters. |
+| **Avg Rate USD** | Calculates the average US Dollar (USD) exchange rate dynamically based on the selected timeline filter. |
+| **Avg Rate USD 2024** | Isolates and calculates the fixed average USD exchange rate for the final benchmark year (2024), ignoring user timeline filters. |
+| **EUR Change Pct** | Measures the percentage growth or decline of the EUR exchange rate across the user-selected timeframe. |
+| **USD Change Pct** | Measures the percentage growth or decline of the USD exchange rate across the user-selected timeframe. |
+| **EUR Growth Subtitle** | Generates a dynamic, time-aware text string for the EUR KPI card subtitle (e.g., *"EUR Change between 2014 and 2024"*). |
+| **USD Growth Subtitle** | Generates a dynamic, time-aware text string for the USD KPI card subtitle (e.g., *"USD Change between 2014 and 2024"*). |
+| **Inflation PL (HICP)** | Calculates the dynamic Harmonised Index of Consumer Prices (HICP) for Poland based on the active slicer selection. |
+| **Inflation EU (HICP)** | Calculates the dynamic Harmonised Index of Consumer Prices (HICP) for the European Union as a baseline benchmark. |
+| **Latest Inflation PL (HICP)** | Extracts the inflation rate for the final year of the selected range to display current economic pressure. |
+| **Nominal Wage** | Computes the average gross monthly wage in Poland dynamically over the selected time range. |
+| **Real Wage** | Adjusts the nominal wage against inflation metrics to calculate the true purchasing power over time. |
+| **Latest Nominal Wage PLN** | Isolates the most recent nominal wage value to anchor the KPI dashboard views. |
+| **Latest Real Wage PLN** | Isolates the most recent real wage value to highlight the current baseline of adjusted citizen wealth. |
