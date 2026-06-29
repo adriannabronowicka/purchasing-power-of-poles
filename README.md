@@ -61,5 +61,5 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 | **Latest Inflation PL (HICP)** | Extracts the inflation rate for the final year of the selected range to display current economic pressure. |
 | **Nominal Wage** | Computes the average gross monthly wage in Poland dynamically over the selected time range. |
 | **Real Wage** | Adjusts the nominal wage against inflation metrics to calculate the true purchasing power over time. |
-| **Latest Nominal Wage PLN** | Isolates the most recent nominal wage value to anchor the KPI dashboard views. |
-| **Latest Real Wage PLN** | Isolates the most recent real wage value to highlight the current baseline of adjusted citizen wealth. |
+| **Latest Nominal Wage** | Isolates the most recent nominal wage value to anchor the KPI dashboard views. |
+| **Latest Real Wage** | Isolates the most recent real wage value to highlight the current baseline of adjusted citizen wealth. |
