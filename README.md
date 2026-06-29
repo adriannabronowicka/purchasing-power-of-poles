@@ -32,3 +32,12 @@ This section expands the analysis to a global scale, examining the Polish Zloty'
 * **DAX (Data Analysis Expressions)** – Created calculated measures.
 * **GitHub** – Documentation, version control, and project hosting.
 
+## ⚙️ Data Pipeline & ETL Process
+
+Before building the dashboard, I developed a three-stage data pipeline in Python to automate data ingestion, validate data quality, and transform multi-source datasets into an analytics-ready format:
+
+1. **Extraction (`exchange_rates.py`):** Built a script utilizing the Python `requests` library to fetch historical exchange rates directly from the National Bank of Poland (NBP) API.
+2. **Validation (`data_check.py`):** Developed a script to perform exploratory data analysis (EDA), detect missing values, and inspect data structures from various sources (GUS, Eurostat) before transformation.
+3. **Transformation (`data_cleaning.py`):** Used `pandas` to clean raw data, filter and select specific columns required for analysis, and translate Polish source headers into English for a standardized schema. I also aligned and standardized date/year formats across all distinct datasets to ensure seamless relationship mapping and star-schema integration inside Power BI, before exporting them as clean, individual CSV files.
+
+*The complete Python code and automated data workflow can be found in the `/data-pipeline` directory, with datasets organized into raw and processed folders.*
