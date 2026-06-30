@@ -76,6 +76,7 @@ VAR CurrentNominalWage = [Nominal Wage]
 VAR InflationRate = [Inflation PL (HICP)]
 RETURN
 DIVIDE(CurrentNominalWage, 1 + InflationRate)
+```
 
 <details>
 <summary><b>🔍 View DAX Code: Latest Inflation PL (HICP) Calculation </b></summary>
@@ -91,6 +92,7 @@ CALCULATE(
     [Inflation PL (HICP)],
     'Calendar'[year] = MaxYear
 )
+```
 
 <details>
 <summary><b>🔍 View DAX Code: EUR Change Pct Calculation </b></summary>
@@ -119,3 +121,4 @@ VAR RateEnd =
 
 RETURN
     DIVIDE(RateEnd - RateStart, RateStart)
+```
