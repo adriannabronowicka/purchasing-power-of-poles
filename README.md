@@ -96,6 +96,8 @@ CALCULATE(
 <summary><b>🔍 View DAX Code: EUR Change Pct Calculation </b></summary>
 <br>
 
+This measure calculates the percentage change in the Euro exchange rate across the years selected on the slicer. It identifies the exact starting and ending points (`year_month`) from the current filter context to compute an accurate delta.
+
 ```dax
 EUR Change Pct = 
 VAR MinMonth = MIN('Calendar'[year_month])
