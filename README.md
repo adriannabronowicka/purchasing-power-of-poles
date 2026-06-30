@@ -65,7 +65,7 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 | **Latest Real Wage** | Extracts the most recent real wage value. |
 
 <details>
-<summary><b>🔍 View DAX Code: Real Wage Calculation (Inflation-Adjusted Purchasing Power)</b></summary>
+<summary><b>🔍 View DAX Code: Real Wage Calculation </b></summary>
 <br>
 
 This measure dynamically adjusts nominal wages against the Harmonised Index of Consumer Prices (HICP) using a deflation formula ($1 + \text{Inflation Rate}$) to evaluate true citizen wealth and purchasing power trends across any user-selected timeframe.
