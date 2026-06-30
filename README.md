@@ -63,3 +63,16 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 | **Real Wage** | Adjusts the nominal wage against inflation metrics to calculate the true purchasing power over time. |
 | **Latest Nominal Wage** | Extracts the most recent nominal wage value. |
 | **Latest Real Wage** | Extracts the most recent real wage value. |
+
+<details>
+<summary><b>🔍 View DAX Code: Real Wage Calculation (Inflation-Adjusted Purchasing Power)</b></summary>
+<br>
+
+This measure dynamically adjusts nominal wages against the Harmonised Index of Consumer Prices (HICP) using a deflation formula ($1 + \text{Inflation Rate}$) to evaluate true citizen wealth and purchasing power trends across any user-selected timeframe.
+
+```dax
+Real Wage = 
+VAR CurrentNominalWage = [Nominal Wage]
+VAR InflationRate = [Inflation PL (HICP)]
+RETURN
+DIVIDE(CurrentNominalWage, 1 + InflationRate)
