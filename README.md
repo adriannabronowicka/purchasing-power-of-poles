@@ -78,6 +78,7 @@ RETURN
 DIVIDE(CurrentNominalWage, 1 + InflationRate)
 ```
 
+
 <details>
 <summary><b>🔍 View DAX Code: Latest Inflation PL (HICP) Calculation </b></summary>
 <br>
@@ -93,6 +94,7 @@ CALCULATE(
     'Calendar'[year] = MaxYear
 )
 ```
+
 
 <details>
 <summary><b>🔍 View DAX Code: EUR Change Pct Calculation </b></summary>
