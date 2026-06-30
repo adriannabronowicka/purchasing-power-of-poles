@@ -68,7 +68,7 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 <summary><b>🔍 View DAX Code: Real Wage Calculation </b></summary>
 <br>
 
-This measure dynamically adjusts nominal wages against the Harmonised Index of Consumer Prices (HICP) using a deflation formula ($1 + \text{Inflation Rate}$) to evaluate true citizen wealth and purchasing power trends across any user-selected timeframe.
+This measure calculates the real purchasing power of wages by adjusting the nominal wage for inflation (using the HICP index). It divides the nominal wage by (1 + Inflation Rate) to show whether people actually grew wealthier over time, or if their raises were simply eaten up by inflation.
 
 ```dax
 Real Wage = 
@@ -76,3 +76,44 @@ VAR CurrentNominalWage = [Nominal Wage]
 VAR InflationRate = [Inflation PL (HICP)]
 RETURN
 DIVIDE(CurrentNominalWage, 1 + InflationRate)
+
+<details>
+<summary><b>🔍 View DAX Code: Latest Inflation PL (HICP) Calculation </b></summary>
+<br>
+
+This measure ensures the KPI card always shows the inflation rate for the final year (2024), regardless of what the user selects on the date slicer. Instead of disabling visual interactions in Power BI, the DAX code handles it dynamically: the `VAR` block fetches the maximum year directly from the GUS data table, and `CALCULATE` forces this specific year into the filter context.
+
+```dax
+Latest Inflation PL (HICP) = 
+VAR MaxYear = MAX('poland_wages_gus_clean'[year]) 
+RETURN
+CALCULATE(
+    [Inflation PL (HICP)],
+    'Calendar'[year] = MaxYear
+)
+
+<details>
+<summary><b>🔍 View DAX Code: EUR Change Pct Calculation </b></summary>
+<br>
+
+```dax
+EUR Change Pct = 
+VAR MinMonth = MIN('Calendar'[year_month])
+VAR MaxMonth = MAX('Calendar'[year_month])
+
+VAR RateStart = 
+    CALCULATE(
+        AVERAGE(fx_rates_clean[avg_rate]),
+        fx_rates_clean[currency] = "EUR",
+        'Calendar'[year_month] = MinMonth
+    )
+
+VAR RateEnd = 
+    CALCULATE(
+        AVERAGE(fx_rates_clean[avg_rate]),
+        fx_rates_clean[currency] = "EUR",
+        'Calendar'[year_month] = MaxMonth
+    )
+
+RETURN
+    DIVIDE(RateEnd - RateStart, RateStart)
