@@ -40,7 +40,7 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 2. **Validation (`data_check.py`):** Developed a script to perform exploratory data analysis (EDA), detect missing values, and inspect data structures from various sources (GUS, Eurostat) before transformation.
 3. **Transformation (`data_cleaning.py`):** Used `pandas` to clean raw data, filter and select specific columns required for analysis, and translate Polish source headers into English for a standardized schema. I also aligned and standardized date/year formats across all distinct datasets to ensure seamless relationship mapping and star-schema integration inside Power BI, before exporting them as clean, individual CSV files.
 
-*The complete Python code and automated data workflow can be found in the `/data-pipeline` directory, with datasets organized into raw and processed folders.*
+*The complete Python automation workflow is located in the `/data-pipeline` directory, while all datasets are strictly isolated within the `/data` folder (categorized into `raw` and `processed`).*
 
 ## 💡 Key Insights
 
