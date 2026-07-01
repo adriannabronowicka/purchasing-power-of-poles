@@ -144,14 +144,14 @@ Below is the complete overview of the project organization and the files include
 
 ```plaintext
 ├── data-pipeline/
-│   ├── exchange_rates.py   # Python script for NBP API extraction
-│   ├── data_check.py       # Initial data validation & EDA
-│   └── data_cleaning.py    # Main data transformation
+│   ├── exchange_rates.py                       # Python script for NBP API extraction
+│   ├── data_check.py                           # Initial data validation & EDA
+│   └── data_cleaning.py                        # Main data transformation
 ├── data/
-│   ├── raw/                # Original, unaltered source files (GUS, Eurostat)
-│   └── processed/          # Final, clean CSV files feeding the Power BI report
-├── images/                 # Screenshots of the dashboard pages
-├── Purchasing_Power_of_Poles_Analysis.pbix  # Full interactive Power BI Desktop model
-├── Purchasing_Power_of_Poles_Report.pdf    # Preview of the report
-└── README.md               # Project documentation
+│   ├── raw/                                    # Original, unaltered source files (GUS, Eurostat)
+│   └── processed/                              # Final, clean CSV files feeding the Power BI report
+├── images/                                     # Screenshots of the dashboard pages
+├── Purchasing_Power_of_Poles_Analysis.pbix     # Full interactive Power BI Desktop model
+├── Purchasing_Power_of_Poles_Report.pdf        # Preview of the report
+└── README.md                                   # Project documentation
 ```
