@@ -46,12 +46,12 @@ Before building the dashboard, I developed a three-stage data pipeline in Python
 
 Here are the macro-economic conclusions driven by the data analysis:
 
-*   **The "Bread Test" Illusion (Nominal vs. Real Wages):** 
-    While nominal wages in Poland climbed steadily between 2014 and 2024, skyrocketing inflation (HICP) heavily eroded that growth. The reality check? Despite earning more on paper, the real purchasing power of an average wage actually **shrank by over 120 loaves of bread** within a decade. Higher nominal earnings failed to fully translate into real financial security.
+*   **Impact of Inflation on Wages:** 
+    While nominal wages in Poland climbed steadily between 2014 and 2024, skyrocketing inflation (HICP) heavily eroded that growth. The reality check comes from the "Bread Test": despite earning more on paper, the real purchasing power of an average wage actually **shrank by over 120 loaves of bread** within a decade. Higher nominal earnings failed to translate into real financial security.
     
-*   **Currency & Savings Erosion (USD vs. EUR):** 
+*   **Impact of Inflation on Savings:** 
     Local inflation peaks (especially in 2022) combined with global macroeconomic shifts severely impacted the Polish Zloty's external value. If you had saved **10,000 PLN** in 2014:
-    *   In **EUR**, your purchasing power stayed relatively stable (falling slightly from €2,392 to €2,320) due to stable long-term exchange rates.
+    *   In **EUR**, your purchasing power stayed relatively stable (falling slightly from €2,392 to €2,320).
     *   In **USD**, your purchasing power **dropped by nearly 21%**, crashing from $3,175 to $2,513. 
     
 *   **The Bottom Line:** Keeping long-term savings purely in local currency during high-inflation periods drastically diminished its global value, particularly against the US Dollar.
