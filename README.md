@@ -158,3 +158,7 @@ Below is the complete overview of the project organization and the files include
 ```
 *   [Purchasing_Power_of_Poles_2014-2024_Report.pdf ](Purchasing_Power_of_Poles_2014-2024_Report.pdf ) – **Quick Preview.** Click to see the full layout and design without needing Power BI.
 *   [Purchasing_Power_of_Poles_2014-2024.pbix](Purchasing_Power_of_Poles_2014-2024.pbix) – **Interactive Model.** Download and open in Power BI Desktop to explore all DAX measures, data relationships, and filters.
+
+## 📌 Author
+**Adrianna Bronowicka**  
+Python, Power BI & Data Analysis Portfolio Project
