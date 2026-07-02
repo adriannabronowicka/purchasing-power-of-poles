@@ -5,6 +5,8 @@ The goal of this project was to conduct a comprehensive end-to-end analysis of m
 
 ## 📊 Interactive Dashboard Preview
 
+https://github.com/user-attachments/assets/88f51708-498f-4e74-9369-4584a696630e
+
 The video above demonstrates the interactive features of the dashboard. Detailed descriptions of the charts and pages can be found below.
 
 ### 📊 Page 1: Wages & Inflation in Poland
