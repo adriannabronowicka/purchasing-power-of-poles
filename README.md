@@ -23,7 +23,7 @@ This view connects national wage growth with local inflation to uncover the actu
 
 This section expands the analysis to a global scale, examining the Polish Zloty's strength and positioning against international standards:
 * **Inflation (HICP) vs. Currency Exchange Rates:** A combo chart tracking the average exchange rates of the EUR and USD to evaluate how global crises and domestic inflation influenced the Polish Zloty's value.
-* **Global Impact on Savings:** A practical business scenario showing the real-world devaluation of cash savings (e.g., 10,000 PLN) when converted to foreign currencies over the decade.
+* **Global Impact on Savings:** A practical business scenario showing the real-world devaluation of cash savings (e.g., 10 000 PLN) when converted to foreign currencies over the decade.
 * **EU Benchmark:** A comparative line chart pitting Poland's HICP inflation directly against the European Union average to highlight local volatility.
 
 ## 🛠️ Tech Stack & Tools
